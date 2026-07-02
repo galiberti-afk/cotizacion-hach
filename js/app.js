@@ -1,9 +1,9 @@
 // ════════════════════════════════════════════════════════
 //  CONFIGURACIÓN — MODIFICÁ ESTOS VALORES
 // ════════════════════════════════════════════════════════
-const EMAILJS_PUBLIC_KEY  = 'TU_PUBLIC_KEY';        // https://dashboard.emailjs.com/admin
-const EMAILJS_SERVICE_ID  = 'TU_SERVICE_ID';
-const EMAILJS_TEMPLATE_ID = 'TU_TEMPLATE_ID';
+const EMAILJS_PUBLIC_KEY  = 'PPhpNUkxoKfpsn27c';        // https://dashboard.emailjs.com/admin
+const EMAILJS_SERVICE_ID  = 'service_crxu3dl';
+const EMAILJS_TEMPLATE_ID = 'template_m1rxg9k';
 const EMAIL_DESTINO       = 'galiberti@meditecna.com.ar';
 
 emailjs.init(EMAILJS_PUBLIC_KEY);
