@@ -118,9 +118,12 @@ body{
   max-width:400px;
 }
 .hero-media .media-brand{
+  align-self:flex-start;
   margin-top:28px;
   height:34px;
   width:auto;
+  max-width:160px;
+  object-fit:contain;
   display:block;
 }
 
