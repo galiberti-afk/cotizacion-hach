@@ -117,6 +117,12 @@ body{
   color:#DCEBF5;
   max-width:400px;
 }
+.hero-media .media-brand{
+  margin-top:28px;
+  height:34px;
+  width:auto;
+  display:block;
+}
 
 .hero-form{
   flex:1 1 50%;
