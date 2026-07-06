@@ -118,7 +118,7 @@ body{
   max-width:400px;
 }
 .hero-media .media-brand{
-  max-width: 160px;
+  align-self: flex-start;
   margin-top:28px;
   height:54px;
   width:auto;
