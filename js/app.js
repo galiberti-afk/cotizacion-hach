@@ -23,7 +23,7 @@ function findCat(id){ return CATALOG.find(c => c.id === id); }
 function findSub(catId, subId){ const c = findCat(catId); return c && c.subcats ? c.subcats.find(s => s.id === subId) : null; }
 
 function imgTag(src, icon, cls){
-  return `<img src="${src}" alt="" onerror="this.replaceWith(makeIcon('${icon}','${cls}'))">`;
+  return `<img src="${src}" alt="" loading="lazy" onerror="this.replaceWith(makeIcon('${icon}','${cls}'))">`;
 }
 function makeIcon(emoji, cls){
   const s = document.createElement('span');
@@ -364,7 +364,6 @@ function submitForm(){
   emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
     .then(() => {
       document.getElementById('heroCard').style.display = 'none';
-      document.getElementById('successEmail').textContent = email;
       document.getElementById('thanksCard').classList.add('active');
     })
     .catch(err => {
